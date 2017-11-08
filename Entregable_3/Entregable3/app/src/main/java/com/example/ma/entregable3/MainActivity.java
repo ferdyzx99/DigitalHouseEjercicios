@@ -11,16 +11,21 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+import java.io.Serializable;
+
+public class MainActivity extends AppCompatActivity implements RecetasAdapter.NotificableRecyclerView {
 
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
+    private FragmentManager mifragmentmanager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        mifragmentmanager = getSupportFragmentManager();
         drawerLayout = (DrawerLayout) findViewById(R.id.miDrawerLayout);
         navigationView = (NavigationView) findViewById(R.id.miNavigationView);
         navigationView.setNavigationItemSelectedListener(new ListenerMenu());
@@ -47,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 case R.id.item2 :
-                    Toast.makeText(getApplicationContext(), item.getTitle() ,Toast.LENGTH_SHORT).show();
+                    lanzarFragmentAbout();
                     break;
 
 
@@ -64,23 +69,48 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    private void lanzarFragmentAbout() {
+        FragmentTransaction mifragmentTransaction = mifragmentmanager.beginTransaction();
+        Fragment fragmentAbout = new FragmentAbout();
+        mifragmentTransaction.addToBackStack(null);
+        mifragmentTransaction.replace(R.id.ActivityMain_contenedor,fragmentAbout).commit();
 
+
+    }
 
 
     private void lanzarFragmentRecetas(){
 
-        FragmentManager mifragmentmanager = getSupportFragmentManager();
+
         FragmentTransaction mifragmentTransaction = mifragmentmanager.beginTransaction();
-
         Fragment fragmentRecetas = new Fragment_Recetas();
-
-        mifragmentTransaction.add(R.id.ActivityMain_contenedor,fragmentRecetas);
         mifragmentTransaction.addToBackStack(null);
-        mifragmentTransaction.commit();
+        mifragmentTransaction.replace(R.id.ActivityMain_contenedor,fragmentRecetas).commit();
+
 
 
 
     }
+
+    @Override
+    public void notificarClick(Receta recetaClickeada) {
+
+        FragmentTransaction mifragmentTransaction = mifragmentmanager.beginTransaction();
+        Fragment fragmentDetalle = new FragmentDetalle();
+        Bundle bundle = new Bundle();
+
+        bundle.putSerializable(FragmentDetalle.clavereceta, (Serializable) recetaClickeada);
+        fragmentDetalle.setArguments(bundle);
+
+
+        mifragmentTransaction.addToBackStack(null);
+        mifragmentTransaction.replace(R.id.ActivityMain_contenedor,fragmentDetalle).commit();
+
+
+
+    }
+
+
 
 
 }

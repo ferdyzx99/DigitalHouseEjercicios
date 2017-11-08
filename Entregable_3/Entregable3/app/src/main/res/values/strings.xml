@@ -17,7 +17,8 @@ Cuando la salsa blanca esté lista, retírala del fuego. Condimenta con sal y pi
 
 
 
-    <string name="panquequesIngredientes">Harina: 4 a 5 cucharadas.
+    <string name="panquequesIngredientes">
+        Harina: 4 a 5 cucharadas. \n
 2 huevos
 220 gr. harina 0000
 500 cc. leche.</string>
@@ -32,6 +33,24 @@ Llevar nuevamente al fuego y cuando se nota que los bordes del panqueque comienz
 Uno por uno con el mismo procedimiento terminar con el resto de los panqueques.
 A medida que se van haciendo se colocan encimados cubiertos con un plato para que se mantengan calentitos y no se sequen</string>
 
+
+
+<string name="bizcochueloIngredientes"> 3 huevos.
+100g de manteca.
+2 tazas de azúcar.
+2 1/4 tazas de harina.
+1 cucharada de polvo para hornear.
+1 taza de leche.
+1 pizca de sal.
+1/2 taza de pasas de uva (rubias o negras)</string>
+
+
+ <string name="bizcochueloReceta">Precalentar el horno a 180C (moderado). Enmantecar y enharinar una tortera mediana. Reservar.
+Separar las yemas de las claras. Reservar las claras.
+Batir bien las yemas con la manteca y el azúcar, hasta que lograr una crema bien clara y espumosa.
+En otro bowl, mezclar harina con el polvo para hornear. Intercalar la mezcla de huevos, con la leche, e ir incorporando de a poco, mezclando hasta que se integre bien. Batir bien.
+En un bowl aparte, mezclar las claras con la pizca de sal, y batirlas a nieve. Incorporar a la preparación anterior en forma envolvente. Por último, agregar las pasas.
+Verter la preparación en el molde, y llevar al horno durante 35 minutos, o hasta que al introducir un palillo, éste salga limpio.</string>
 
 
 

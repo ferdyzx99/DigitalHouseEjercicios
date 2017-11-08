@@ -1,10 +1,12 @@
 package com.example.ma.entregable3;
 
+import java.io.Serializable;
+
 /**
  * Created by ma on 07/11/17.
  */
 
-public class Receta {
+public class Receta implements Serializable {
     private String titulo;
     private Integer foto;
     private String ingredientes;
@@ -18,19 +20,19 @@ public class Receta {
     }
 
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
+    public String getTitulo() {
+        return titulo;
     }
 
-    public void setFoto(Integer foto) {
-        this.foto = foto;
+    public Integer getFoto() {
+        return foto;
     }
 
-    public void setIngredientes(String ingredientes) {
-        this.ingredientes = ingredientes;
+    public String getIngredientes() {
+        return ingredientes;
     }
 
-    public void setPreparacion(String preparacion) {
-        this.preparacion = preparacion;
+    public String getPreparacion() {
+        return preparacion;
     }
 }
