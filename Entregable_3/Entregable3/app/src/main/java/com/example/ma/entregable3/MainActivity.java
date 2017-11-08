@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
         Fragment fragmentRecetas = new Fragment_Recetas();
 
         mifragmentTransaction.add(R.id.ActivityMain_contenedor,fragmentRecetas);
+        mifragmentTransaction.addToBackStack(null);
         mifragmentTransaction.commit();
 
 
