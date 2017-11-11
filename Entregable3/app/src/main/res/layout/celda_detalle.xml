@@ -14,6 +14,7 @@
      android:id="@+id/fragmentRecetas_TVtitulo"
      android:textAlignment="center"
      android:textSize="24sp"
+     android:textColor="@color/colortitulo"
      android:layout_margin="10dp"
      />
 
@@ -40,8 +41,10 @@
         android:layout_marginLeft="5dp"
         android:id="@+id/fragmentRecetas_TVingedientes"
         android:layout_width="0dp"
-        android:layout_weight="30"
+        android:layout_weight="20"
         android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
         tools:text="Aca van los ingredientes"/>
 
 
@@ -61,6 +64,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="5dp"
+        android:textSize="20sp"
         tools:text="Aca va la receta blab bla bla bla bla balalsdjflasjkdfl asdkfaslkdfj alskdjflasjdlfjasdlf
         jaslkdjflkasdj  fajsdlñfjasldj flakñsdjflñkjaslñdkj sdjlfkjaskldjflaksjd jsdalkjflkasjd sdfasdfa asdfasdfasdf
         jaslkdjflkasdj  fajsdlñfjasldj flakñsdjflñkjaslñdkj sdjlfkjaskldjflaksjd jsdalkjflkasjd sdfasdfa asdfasdfasdf

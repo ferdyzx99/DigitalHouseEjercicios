@@ -10,7 +10,7 @@
     <TextView
         android:textStyle="bold"
         android:id="@+id/textView"
-        android:textColor="#0cffae"
+        android:textColor="@color/colortitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="El Mono Cocinero"

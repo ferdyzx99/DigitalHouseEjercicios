@@ -54,13 +54,7 @@ En un bowl aparte, mezclar las claras con la pizca de sal, y batirlas a nieve. I
 Verter la preparación en el molde, y llevar al horno durante 35 minutos, o hasta que al introducir un palillo, éste salga limpio.</string>
 
 
- <string name="titulofilosofia">Filosofía de nuestra Organización</string>
 
-<string name="filosofia">En 1897 unos exploradores intentaron llegar al polo norte en globo. Este cayo y sus tripulantes debieron marchar a pie sufriendo toda clase de infortunios.
-Luego de 2 meses de superar toda clase de obstáculos, el témpano se quebró justo debajo del refugio. Los exploradores sobrevivieron pero a costa de perder el grueso de sus ya escasos equipos
-No obstatne, el jefe de la expedición escribió en su diario: "Nadie ha perdido la moral, con compañeros como éstos uno podría desenvolverse en prácticamente cualquier situación"
-
-</string>
 
 
 
@@ -69,79 +63,9 @@ No obstatne, el jefe de la expedición escribió en su diario: "Nadie ha perdido
 
 
 
-    <string name="nioquis_semola_receta">
-     INGRADIENTES:
-     1 litro Leche en Polvo
-     1 cucharada manteca
-     270 g sémola de cocción rápida
-     3 yemas
-     100 g queso rallado
-     C/n sal
-     C/n pimienta
-     C/n nuez moscada
-     PREPARACION
-     En una cacerola, verter la Leche en Polvo, cuando rompe hervor espolvorear con la sémola en forma de lluvia y seguir a fuego bajo revolviendo continuamente con cuchara de madera durante 1 minuto.
-     Retirar del fuego y agregar la manteca, el queso rallado y las yemas, mezclar bien y condimentar.
-     Volcar la preparación sobre la mesada enmantecada y estirarla con un palote hasta que quede de 1 cm de espesor.
-     Dejar que se enfríe y recién entonces cortar los ñoquis con un cortapasta de la forma que se quiera. Disponerlos bien pegados entre sí en una fuente para horno enmantecada.
-     Con la manteca restante, cortar cubos pequeños y colocarlos sobre la superficie de cada uno de los ñoquis, junto con una pizca del queso rallado restante.
-     Llevar al horno fuerte hasta que estén bien dorados.
-    </string>
-    <string name="nioquis_espinaca_receta">
-    INGREDIIENTES:
-    1 huevo
-    1 taza Puré de Papas MAGGI
-    cant. necesaria sal y pimienta
-     1 1/2 taza harina
-     1 taza agua caliente
-     100 g espinaca cocida al vapor, escurrida y picada
-     2 puerros
-     2 cdas aceite
-    200 cc crema
-    una pizca nuez moscada
-        PREPARACION:Batí el huevo con los copos de Puré de papas MAGGI, condimentá con sal y pimienta. Agregá la mitad de la harina (reservá la otra mitad). Verté el agua hirviendo y mezclá enérgicamente con cuchara de madera. Añadí la espinaca y el resto de harina.
-     Volcá la masa en una mesada enharinada, dividí en 4 porciones, formá 4 “viboritas”, cortalas en cuadraditos y dales forma redondeada.
-     Cociná en una cacerola con agua hirviendo y un puñado de sal gruesa hasta que suban a la superficie.
-     Para la salsa, salteá los puerros en el aceite caliente. Añadí la crema, la nuez moscada y calentalos. Salpimentá y serví acompañando los ñoquis.
-    </string>
-    <string name="bastones_receta">
-     INGREDIENTES:
-     500 g pechuga de pollo
-     2 ½ tazas cereales
-     3 cucharadas NESTUM Multicereal
-     1 diente ajo
-     1 cucharada miel
-     ½ jugo de limón
-     2 huevos
-     Pizca sal
-     PREPARACION:
-     Cortar la pechuga en bastones, mezclar en un bol el diente de ajo, la miel y el limón.
-     Colocar los bastones y dejar marinar en la heladera durante 1 hora.
-     Procesar los Cereales NESTLÉ FITNESS con el NESTUM 5 Cereales. Reservar.
-     Retirar los bastones de la marinada y empanar en la mezcla de cereales.
-     Disponer en placa lubricada con rocío vegetal y cocinar en horno moderado hasta que estén dorados.
-    </string>
-    <string name="pastel_pollo_receta">
-    INGREDIENTES:
-     125 g Puré de Papas MAGGI sabor 4 Quesos
-     800 g pechuga de pollo
-     1 cebolla de verdeo
-     ½ cebolla
-     1 ramita apio
-     2 zanahorias ralladas
-     1 jugo de limón
-     1 cucharada aceite de maíz
-     100 cc Caldo de Gallina MAGGI
-     100 cc vino blanco
-     1 cucharadita curry
-     Pizca sal
-     1 cucharada hierbas frescas picadas
-     1 taza arvejas congeladas
-     2 yemas
-     2 cucharadas queso rallado
-    </string>
-    <string name="pinchos_pollo_receta">
-        INGREDIENTES:
+
+
+    <string name="pinchospolloIngredientes">
         2 Supremas de pollo
 3 cucharadas jugo de limón
 1 ralladura de naranja
@@ -150,8 +74,8 @@ No obstatne, el jefe de la expedición escribió en su diario: "Nadie ha perdido
 1 cucharada aceite de oliva
 2 cucharadas Tu Toque MAGGI sabor Gallina
 2 berenjena
-2 zucchini
-        PREPARACION:
+2 zucchini </string>
+    <string name="pinchospolloReceta">
         Cortar 2 supremas de pollo en finos escalopes y luego al medio.
 Preparar una marinada con 3 cucharadas de jugo de limón, la ralladura de 1 naranja, 1 cucharada de tomillo picado, 50 cc de vino blanco, 1 diente de ajo picado, 1 cucharada de aceite de oliva y 2 cucharadas de TU TOQUE MAGGI sabor Gallina.
 Mezclar hasta integrar. Colocar los escalopes en la marinada, cubrir con film y llevar a la heladera durante 30 minutos.
@@ -160,9 +84,8 @@ Cocinar en una grilla bien caliente de ambos lados hasta que estén doraditos, p
 Cortar 2 berenjenas y 2 zucchinis a lo largo en finas láminas. Grillar de ambos lados.
 Servir los pinchos acompañados de las verduras grilladas
     </string>
-    <string name="carbonada_receta">
-        INGREDIENTES:
-    1 Zapallo Redondo
+    <string name="carbonadaIngredientes">
+        1 Zapallo Redondo
     1 cebolla
     1 morrón rojo
     cant. necesaria aceite
@@ -176,8 +99,8 @@ Servir los pinchos acompañados de las verduras grilladas
     3 choclos
     Cant. a gusto Laurel, orégano y ají molido
     Cant. a gusto sal y pimienta
-    Cant. a gusto perejil picado, para espolvorear
-    PREPARACION:
+    Cant. a gusto perejil picado, para espolvorear</string>
+    <string name="carbonadaReceta">
     Lavá el zapallo. Cortá la tapa y con una cuchara desprendé los filamentos y las semillas.
     Cubrí el zapallo y su tapa con papel metálico, colocalos en una asadera con 2 cm de agua y cocinalos en un horno precalentado a temperatura media (180 ºC) durante 1 hora aprox. o hasta que quede tierno.
     En una cacerola verté el aceite y dorá la carne. Agregá las cebollas y el morrón picados, rehogar todo junto.Sumá los tomates picados y pelados con su jugo, las zanahorias peladas cortadas en rodajas, y las papas peladas en cubos. Condimentá con pimentón, el ají molido y el orégano.
@@ -185,8 +108,7 @@ Servir los pinchos acompañados de las verduras grilladas
     Incorporá los damascos, las rodajas de choclo, y salpimentar.
     Retirá el papel del zapallo y rellená con la carbonada. Colocá la tapa al zapallo.Si se desea, espolvoreá con perejil.
      </string>
-    <string name="bifes_criolla_receta">
-        INGREDIENTES:
+    <string name="bifescriollaIngredientes">
     3 Papas
     6 bifecitos de ternera
     3 tomates
@@ -195,16 +117,16 @@ Servir los pinchos acompañados de las verduras grilladas
     1 morrón verde
     2 zanahorias
     3 cucharadas Tu Toque MAGGI sabor Carne
-    PREPARACION:
+     </string>
+    <string name="bifescriollaReceta">
     Desgrasar 6 bifecitos de ternera. Tener en cuenta que no deben ser muy gruesos.
     Pelar y cortar las papas, 3 tomates en rodajas, 2 cebollas en aros, 1 morrón rojo, 1 morrón verde en tiras y 2 zanahorias en rodajas finas.
     En una cacerola profunda pincelada con aceite de oliva, distribuir los bifes y los vegetales en capas, en forma alternada.
     Espolvorear con ajo y perejil picado, entre capa y capa.
     Por último, bañar con 3 cucharadas de Tu Toque MAGGI sabor Carne y cocinar a fuego suave hasta que las papas y las zanahorias estén suaves.
       </string>
-    <string name="colita_rellena_receta">
-        INGREDIENTES:
-    2 cebollas
+    <string name="colitarellenaIngredientes">
+        2 cebollas
     1 dientes de ajo
     1 pimiento verde
     2 zapallitos
@@ -221,7 +143,8 @@ Servir los pinchos acompañados de las verduras grilladas
     50 g pickles picados
     1 cucharadita pimentón dulce
     100 g tomates cherry
-    PREPARACION:
+     </string>
+    <string name="colitarellenaReceta">
     Desgrasar muy bien la colita de cuadril, realizar un corte en el centro de la carne, para formar una bolsa.
     Mezclar el queso untable con la yema, el perejil y los pickles, el cubito de Caldo de Carne MAGGI rallado, cargar una manga sin boquilla y rellenar la carne, cerrar con palillos y atar.
     En una sartén ateflonada lubricada con rocío vegetal sellar la carne de ambos lados. Pasar a una placa, y bañar con el pimentón disuelto en el Caldo de Verduras MAGGI.
@@ -230,31 +153,31 @@ Servir los pinchos acompañados de las verduras grilladas
     En una sartén ateflonada lubricada con rocío vegetal rehogar las verduras hasta que ablanden, incorporar los zapallitos cortados en cuartos, la berenjena en rodajas, perfumar con el tomillo, bañar con el caldo, tapar y cocinar durante 10 minutos a fuego bajo. Agregar los tomates cherry y cocinar durante 3 minutos más.
     Servir la carne cortada en rodajas con la ratatouille.
     </string>
-    <string name="barra_de_chocolate_receta">
-        INGREDIENTES:
+    <string name="barradechocolateIngredientes">
     1 paquete Premezcla para Brownie Nestlé
     100g manteca
     160 cm3 leche
     160g coco rallado
     1/2 lata Leche Condensada NESTLÉ
     cantidad necesaria Cobertura de Chocolate Nestlé
-    PREPARACION:
+     </string>
+    <string name="barradechocolateReceta">
     Prepará los brownies siguiendo las indicaciones del envase con la manteca y la leche. Retirá del horno y dejá enfriar.
     Para la preparación de coco, mezclá el coco con la Leche Condensada y colocalo sobre el brownie presionando bien. Llevalo a la heladera hasta que esté bien firme. Cortalo en barritas.
     Fundí el chocolate picado y decorá las barritas.
      </string>
-    <string name="helado_frutos_receta">
-        INGREDIENTES:
+    <string name="heladofrutosIngredientes">
     1 taza Leche Condensada NESTLÉ
     1 taza frutos rojos procesados
     1/2 taza crema
-    PREPARACION:
+    </string>
+    <string name="heladofrutosReceta">
     1-Mezclá la leche condensada con los frutos rojos y añadí la crema semibatida.
     2-Colocá en moldecitos para helados, insertá un palito de helado en cada molde y llevar al freezer hasta solidificar.
     3-Desmoldá pasando el molde por agua caliente.
      </string>
-    <string name="volcan_receta">
-        INGREDIENTES:
+
+    <string name="volcanIngredientes">
     50 g manteca
     1/2 taza azúcar
     1 taza Leche Condensada Descremada NESTLÉ
@@ -264,7 +187,9 @@ Servir los pinchos acompañados de las verduras grilladas
     2/3 taza harina
     cant. necesaria azúcar Impalpable
     cant. necesaria Frutillas o arándanos
-    PREPARACION:
+   </string>
+
+    <string name="volcanReceta">
     Batí la manteca blanda con el azúcar formando una crema. Añadí la leche condensada y de a poco los huevos mezclando bien después de cada incorporación.
     Agregá la esencia de vainilla, el chocolate y una vez integrado incorporá la harina.
     Precalentá el horno a temperatura alta 250ºC.
@@ -272,8 +197,10 @@ Servir los pinchos acompañados de las verduras grilladas
     Cociná durante 10 a 12 minutos o hasta que la superficie pierda el brillo y los bordes estén firmes.
     Pasá un cuchillo por el borde y desmoldá. Servilo espolvoreado con azúcar impalpable y con frutillas.
      </string>
+
+
+
     <string name="muffins_receta">
-        INGREDIENTES:
     100g manteca
     1 lata Leche Condensada NESTLÉ
     2 huevos
@@ -287,7 +214,6 @@ Servir los pinchos acompañados de las verduras grilladas
     3.Colocá pirotines en un molde para muffins, rellenalos hasta ¾ partes de su capacidad y ponelos en el horno precalentado a temperatura media (180 ºC por 25 a 30 minutos).
      </string>
     <string name="salmon_receta">
-        INGREDIENTES:
     1 sobre JUGOSO AL HORNO Pollo al Limón
     4 postas salmón blanco o rosado
     1 cebolla de verdeo

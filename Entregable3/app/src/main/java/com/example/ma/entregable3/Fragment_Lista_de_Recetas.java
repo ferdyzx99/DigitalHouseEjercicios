@@ -60,7 +60,24 @@ public class Fragment_Lista_de_Recetas extends Fragment {
         listarecetas = new ArrayList<>();
         listarecetas.add(new Receta("Panqueques",R.drawable.panqueques,getString(R.string.panquequesIngredientes),getString(R.string.panquequesReceta)  ));
         listarecetas.add(new Receta("Salsa Blanca",R.drawable.salsablanca,getString(R.string.salsablancaIngredientes),getString(R.string.salsablancaReceta)  ));
-        listarecetas.add(new Receta("Bizcochuelo",R.drawable.bizcochuelo,getString(R.string.bizcochueloIngredientes),getString(R.string.bizcochueloReceta)  ));}
+        listarecetas.add(new Receta("Bizcochuelo",R.drawable.bizcochuelo,getString(R.string.bizcochueloIngredientes),getString(R.string.bizcochueloReceta)  ));
+        listarecetas.add(new Receta("Pinchos de pollo",R.drawable.pinchos_de_pollo,getString(R.string.pinchospolloIngredientes),getString(R.string.pinchospolloReceta)  ));
+
+            listarecetas.add(new Receta("Bifes a la criolla",R.drawable.bifes_criolla,getString(R.string.bifescriollaIngredientes),getString(R.string.bifescriollaReceta)  ));
+
+            listarecetas.add(new Receta("Carbonada",R.drawable.carbonada,getString(R.string.carbonadaIngredientes),getString(R.string.carbonadaReceta)  ));
+
+            listarecetas.add(new Receta("Colita Rellena",R.drawable.colita_rellena,getString(R.string.colitarellenaIngredientes),getString(R.string.colitarellenaReceta)  ));
+
+
+            listarecetas.add(new Receta("Barrita de chocolate",R.drawable.barrita_de_chocolate,getString(R.string.barradechocolateIngredientes),getString(R.string.barradechocolateReceta  )));
+
+            listarecetas.add(new Receta("Helado de frutos rojos",R.drawable.helado_frutos_rojos,getString(R.string.heladofrutosIngredientes),getString(R.string.heladofrutosReceta)  ));
+
+            listarecetas.add(new Receta("Volcan",R.drawable.volcan,getString(R.string.volcanIngredientes),getString(R.string.volcanReceta)  ));
+
+
+        }
 
 
 
