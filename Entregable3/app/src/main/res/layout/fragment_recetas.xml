@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_margin="5dp"
 
-    tools:context="com.example.ma.entregable3.Fragment_Recetas">
+    tools:context="com.example.ma.entregable3.Fragment_Lista_de_Recetas">
 
     <!-- TODO: Update blank fragment layout -->
     <EditText

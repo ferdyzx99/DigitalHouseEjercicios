@@ -1,12 +1,14 @@
 package com.example.ma.entregable3;
 
+import android.support.annotation.NonNull;
+
 import java.io.Serializable;
 
 /**
  * Created by ma on 07/11/17.
  */
 
-public class Receta implements Serializable {
+public class Receta implements Serializable, Comparable {
     private String titulo;
     private Integer foto;
     private String ingredientes;
@@ -18,6 +20,9 @@ public class Receta implements Serializable {
         this.ingredientes = ingredientes;
         this.preparacion = preparacion;
     }
+
+
+
 
 
     public String getTitulo() {
@@ -34,5 +39,16 @@ public class Receta implements Serializable {
 
     public String getPreparacion() {
         return preparacion;
+    }
+
+    @Override
+    public int compareTo(@NonNull Object o) {
+
+        Receta recetaAComparar = (Receta) o;
+
+
+
+
+        return this.titulo.compareTo(recetaAComparar.getTitulo());
     }
 }

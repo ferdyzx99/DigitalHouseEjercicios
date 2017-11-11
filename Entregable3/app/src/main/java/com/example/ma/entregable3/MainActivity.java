@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements RecetasAdapter.No
 
 
         FragmentTransaction mifragmentTransaction = mifragmentmanager.beginTransaction();
-        Fragment fragmentRecetas = new Fragment_Recetas();
+        Fragment fragmentRecetas = new Fragment_Lista_de_Recetas();
         mifragmentTransaction.addToBackStack(null);
         mifragmentTransaction.replace(R.id.ActivityMain_contenedor,fragmentRecetas).commit();
 
